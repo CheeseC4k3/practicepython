@@ -1,6 +1,6 @@
 import os
 
-command = input("What fileindex do you want to open?")
+command = input("fileindex you want to open? ")
 cmd = "pythonexercise"+command+".py"
 
 
