@@ -1,6 +1,6 @@
 #!/bin/python3
 a = ["Rock", "Paper", "Scissors"]
-
+#while loop lets run program again after one round, if user wishes so
 while len(a) > 0:
     p1 = input("Player 1, please make your choice! \n Rock, Paper or Scissors?\n\n")
     p2 = input("\nPlayer 2, please make your choice! \n Rock, Paper or Scissors?\n\n")
@@ -24,7 +24,7 @@ while len(a) > 0:
     elif (p1 == "Scissors") & (p2 == "Rock"):
         print("\nPlayer 2 wins!\n")
 
-
+#Players can exit after the game here
     usr_command = input("\nWish to continue? Enter / press N \n")
 
     if usr_command == "n":

@@ -3,6 +3,7 @@
 import random
 guess = 12
 
+#the user can guess for a number between one and nine, end the game anywhere typing "exit"
 while True and guess!= "exit":
     i=1
     ran = random.randint(1,9)
