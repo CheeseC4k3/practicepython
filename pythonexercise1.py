@@ -1,8 +1,8 @@
 #!/bin/python3
 #Input
-name = input("Please enter your name")
-age = input("Please enter your age")
-random = input("Please enter a random number")
+name = input("Please enter your name: ")
+age = input("Please enter your age: ")
+random = input("Please enter a random number: ")
 i=0
 #output and year calculation
 for i in range(int(random)):

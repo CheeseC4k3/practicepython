@@ -1,7 +1,7 @@
 #!/bin/python3
 
 #input and reverse string
-string = input("please enter a word")
+string = input("please enter a word: ")
 string_bwd = string[::-1]
 
 print("backward your word means: " + string_bwd)
